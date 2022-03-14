@@ -1,0 +1,75 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>b5b3793b-cae1-4de5-8807-335593fd2e15</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>341.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>PythonSolutions</Name>
+    <RootNamespace>PythonSolutions</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="142.py" />
+    <Compile Include="232.py" />
+    <Compile Include="242.py" />
+    <Compile Include="241.py" />
+    <Compile Include="3210.py" />
+    <Compile Include="329.py" />
+    <Compile Include="328.py" />
+    <Compile Include="327.py" />
+    <Compile Include="326.py" />
+    <Compile Include="325.py" />
+    <Compile Include="324.py" />
+    <Compile Include="323.py" />
+    <Compile Include="322.py" />
+    <Compile Include="321.py" />
+    <Compile Include="341.py" />
+    <Compile Include="361.py" />
+    <Compile Include="251.py" />
+    <Compile Include="222.py" />
+    <Compile Include="221.py" />
+    <Compile Include="213.py" />
+    <Compile Include="212.py" />
+    <Compile Include="211.py" />
+    <Compile Include="165.py" />
+    <Compile Include="164.py" />
+    <Compile Include="163.py" />
+    <Compile Include="162.py" />
+    <Compile Include="161.py" />
+    <Compile Include="154.py" />
+    <Compile Include="153.py" />
+    <Compile Include="152.py" />
+    <Compile Include="151.py" />
+    <Compile Include="141.py" />
+    <Compile Include="135.py" />
+    <Compile Include="134.py" />
+    <Compile Include="133.py" />
+    <Compile Include="132.py" />
+    <Compile Include="131.py" />
+    <Compile Include="122.py" />
+    <Compile Include="121.py" />
+    <Compile Include="112.py" />
+    <Compile Include="111.py" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+  <!-- Uncomment the CoreCompile target to enable the Build command in
+       Visual Studio and specify your pre- and post-build commands in
+       the BeforeBuild and AfterBuild targets below. -->
+  <!--<Target Name="CoreCompile" />-->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+</Project>
